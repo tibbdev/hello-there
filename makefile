@@ -19,7 +19,7 @@ SRCS=$(wildcard $(SRC_DIR)/*.c)
 OBJS=$(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
 
 #Compiler and linker flags
-CXXFLAGS = -Iinc -MMD -MP -std=gnu11
+CXXFLAGS = -Iinc -MMD -MP
 CFLAGS   = -Wall
 LDFLAGS  = 
 LDLIBS   = 
